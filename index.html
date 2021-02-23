@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <section class="header__top">
+        <span class="logo svg"></span>
+        <nav class="header__nav">
+          <ul>
+            <li>Hola</li>
+            <li>Proyectos</li>
+            <li>Hablemos</li>
+          </ul>
+        </nav>
+        <button class="button green download">
+          <span>Descargar</span>Currículum
+        </button>
+      </section>
+      <section class="header__bottom">
+        <img
+          class="person"
+          src="./res/img/mobile/person-mobile.png"
+          alt="Person"
+        />
+        <h1>¡Hola a todos!<br /><strong>Soy Elisa</strong></h1>
+        <p>
+          Una Frontend Developer que le encanta implementar diseños que inspiran
+          y atraen a las personas.
+        </p>
+        <ul class="social-media">
+          <li class="green"><span class="phone svg"></span></li>
+          <li class="green"><span class="mail svg"></span></li>
+          <li class="green"><span class="instagram svg"></span></li>
+          <li class="green"><span class="twitter svg"></span></li>
+        </ul>
+      </section>
+    </header>
+    <main>
+      <section class="main__intro">
+        <h2>
+          A lo largo de mi carrera como Frontend, he tenido el privilegio de
+          trabajar en proyectos retadores e increíbles
+        </h2>
+        <h3>Aquí hay algunos que me gustaría compartir.</h3>
+        <span class="arrow-down svg"></span>
+      </section>
+      <section class="main__showcase">
+        <img
+          class="laptop"
+          src="./res/img/mobile/laptop-mobile.png"
+          alt="Laptop"
+        />
+        <div class="showcase__info">
+          <h4>leonidasesteban.com</h4>
+          <p>
+            Accede a más de 120 proyectos que te ayudarán a mejorar tus
+            habilidades como desarrollador Front-End.
+          </p>
+          <div class="info__buttons">
+            <button class="button">
+              <span class="github svg"></span>Ver código
+            </button>
+            <button class="button green">Ver proyecto</button>
+          </div>
+        </div>
+      </section>
+      <section class="main__card">
+        <img src="./res/img/mobile/user0-mobile.png" alt="User" />
+        <span>
+          "Elisa ha sido de gran ayuda para acelerar ciertos esfuerzos de
+          desarrollo. Lo que nos hubiera llevado 6 meses solo les llevó 1,5
+          meses ".
+        </span>
+        <p>LEONIDAS ESTEBAN / COFUNDADOR Y CEO LEONIDASESTEBAN.COM</p>
+      </section>
+      <section class="main__showcase">
+        <img class="ipad" src="./res/img/mobile/ipad-mobile.png" alt="iPad" />
+        <div class="showcase__info">
+          <h4>MARVOL</h4>
+          <p>
+            Es el sitio oficial de Marvol Entertainment. Explore películas,
+            personajes, cómics, programas de televisión, videos y más oficiales
+            de Marvol.
+          </p>
+          <div class="info__buttons">
+            <button class="button">
+              <span class="github svg"></span>Ver código
+            </button>
+            <button class="button green">Ver proyecto</button>
+          </div>
+        </div>
+      </section>
+      <section class="main__card">
+        <img src="./res/img/mobile/user1-mobile.png" alt="User" />
+        <span>
+          "Elisa ha superado mis expectativas desde el diseño hasta el
+          desarrollo".
+        </span>
+        <p>JASON LOPEZ / COFUNDADOR Y CEO MARVOL</p>
+      </section>
+      <section class="main__showcase">
+        <img
+          class="iphonex"
+          src="./res/img/mobile/iphonex-mobile.png"
+          alt="iPhoneX"
+        />
+        <div class="showcase__info">
+          <h4>NETNET</h4>
+          <p>
+            Películas y series ilimitadas y mucho más. Disfruta donde quieras.
+            Cancela cuando quieras.
+          </p>
+          <div class="info__buttons">
+            <button class="button">
+              <span class="github svg"></span>Ver código
+            </button>
+            <button class="button green">Ver proyecto</button>
+          </div>
+        </div>
+      </section>
+      <section class="main__card">
+        <img src="./res/img/mobile/user2-mobile.png" alt="User" />
+        <span>
+          "Por primera vez en la historia de nuestra empresa, aparecimos en
+          todas las plataformas en las que trabajamos".
+        </span>
+        <p>MARCO CORTEZ / NETNET</p>
+      </section>
+      <section>
+        <h4>HABLEMOS</h4>
+        <p>
+          Si está interesado en trabajar conmigo en su próximo proyecto, no dude
+          en ponerse en contacto conmigo.
+        </p>
+        <form action="#">
+          <label for="name">Nombre completo</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Juan"
+            autocomplete="name"
+            required
+          />
+          <label for="email">Correo electrónico</label>
+          <input
+            type="text"
+            id="email"
+            name="email"
+            placeholder="Juan@gmail.com"
+            autocomplete="email"
+            required
+          />
+          <label for="msg">Mensaje</label>
+          <input type="text" id="msg" name="msg" />
+          <input type="submit" class="button green" value="Enviar mensaje" />
+        </form>
+      </section>
+    </main>
+    <footer>
+      <ul class="social-media">
+        <li class="green"><span class="phone svg"></span></li>
+        <li class="green"><span class="mail svg"></span></li>
+        <li class="green"><span class="instagram svg"></span></li>
+        <li class="green"><span class="twitter svg"></span></li>
+      </ul>
+      <p>Hecho con <span class="heart svg"></span> de Elisa</p>
+      <p>Copyright 2021 - Todos los derechos reservados.</p>
+    </footer>
+  </body>
+</html>
