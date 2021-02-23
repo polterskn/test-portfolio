@@ -11,6 +11,11 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="./css/desktop.css"
+      media="(min-width: 1023px)"
+    />
   </head>
   <body>
     <header>
@@ -137,14 +142,14 @@
         </span>
         <p>MARCO CORTEZ / NETNET</p>
       </section>
-      <section>
+      <section class="main__form">
         <h4>HABLEMOS</h4>
         <p>
           Si está interesado en trabajar conmigo en su próximo proyecto, no dude
           en ponerse en contacto conmigo.
         </p>
         <form action="#">
-          <label for="name">Nombre completo</label>
+          <label for="name">Nombre completo<strong>*</strong></label>
           <input
             type="text"
             id="name"
@@ -153,7 +158,7 @@
             autocomplete="name"
             required
           />
-          <label for="email">Correo electrónico</label>
+          <label for="email">Correo electrónico<strong>*</strong></label>
           <input
             type="text"
             id="email"
@@ -162,8 +167,8 @@
             autocomplete="email"
             required
           />
-          <label for="msg">Mensaje</label>
-          <input type="text" id="msg" name="msg" />
+          <label for="msg">Mensaje</label
+          ><textarea type="text" id="msg" name="msg"></textarea>
           <input type="submit" class="button green" value="Enviar mensaje" />
         </form>
       </section>
@@ -175,7 +180,11 @@
         <li class="green"><span class="instagram svg"></span></li>
         <li class="green"><span class="twitter svg"></span></li>
       </ul>
-      <p>Hecho con <span class="heart svg"></span> de Elisa</p>
+      <div>
+        <p>Hecho con </p>
+        <span class="heart svg"></span>
+        <p> de Elisa</p>
+      </div>
       <p>Copyright 2021 - Todos los derechos reservados.</p>
     </footer>
   </body>
