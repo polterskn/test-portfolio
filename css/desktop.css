@@ -1,0 +1,177 @@
+body {
+  padding: 30px 10vw;
+}
+
+.header__nav {
+  display: block;
+}
+
+.header__nav ul {
+  display: flex;
+  margin-left: 5vw;
+  list-style: none;
+}
+
+.header__nav li {
+  margin-right: 40px;
+}
+
+.header__nav li:last-child {
+  margin-right: 0;
+}
+
+.header__nav li > a {
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 22.65px;
+  letter-spacing: 1.25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--black);
+  opacity: 0.5;
+}
+
+.selected {
+  opacity: 1 !important;
+}
+
+.download {
+  width: 250px;
+}
+
+.download > span {
+  display: inline;
+}
+
+.header__bottom {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.person {
+  grid-column: 2 / 2;
+  grid-row: 1 / 1;
+  place-self: center;
+}
+
+.header__intro {
+  grid-column: 1 / 1;
+  grid-row: 1 / 1;
+}
+
+.main__intro {
+  padding: 150px;
+}
+
+.main__intro * {
+  font-weight: 300;
+  font-size: 3.4rem;
+  line-height: 55.01px;
+}
+
+.main__intro h3 {
+  font-size: 2.4rem;
+}
+
+.main__showcase {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  place-items: center;
+  margin: 160px 0;
+}
+
+.showcase__info h4,
+.main__form h4 {
+  font-size: 3.4rem;
+  line-height: 55.01px;
+}
+
+.showcase__info p {
+  padding: 0px 5vw 0px 0px;
+}
+
+.right-row {
+  grid-column: 2 / 2;
+  grid-row: 1 / 1;
+}
+
+.left-row {
+  grid-column: 1 / 1;
+  grid-row: 1 / 1;
+}
+
+.info__buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.info__buttons button {
+  width: 165px;
+}
+
+.info__buttons button:first-child {
+  margin: 0 20px 0 0;
+}
+
+.main__card {
+  max-width: none;
+  padding: 80px;
+  text-align: center;
+}
+
+.main__card span {
+  font-size: 3.4rem;
+  line-height: 55.01px;
+}
+
+.main__card p {
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 38.83px;
+}
+
+.main__form {
+  width: 50%;
+  align-items: center;
+}
+
+.main__form h4 {
+  width: 100%;
+  text-align: center;
+}
+
+.main__form p {
+  text-align: center;
+}
+
+.main__form form {
+  width: 100%;
+}
+
+footer {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer > span {
+  display: block !important;
+  order: 0;
+}
+
+footer > div {
+  flex-direction: row;
+}
+
+footer div > div {
+  flex-direction: row;
+  margin: 0 5px 0 10vw;
+}
+
+footer ul {
+  order: 2;
+}

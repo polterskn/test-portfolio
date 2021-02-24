@@ -23,36 +23,42 @@
         <span class="logo svg"></span>
         <nav class="header__nav">
           <ul>
-            <li><a href="#">Hola</a></li>
-            <li><a href="#">Proyectos</a></li>
-            <li><a href="#">Hablemos</a></li>
+            <li>
+              <a class="header__bottom--btn" href="#hola-section">Hola</a>
+            </li>
+            <li>
+              <a class="main__intro--btn" href="#proyectos-section"
+                >Proyectos</a
+              >
+            </li>
+            <li>
+              <a class="main__form--btn" href="#hablemos-section">Hablemos</a>
+            </li>
           </ul>
         </nav>
         <button class="button green download">
-          <span>Descargar</span>Currículum
+          <span>Descargar </span>Currículum
         </button>
       </section>
-      <section class="header__bottom">
-        <img
-          class="person"
-          src="./res/img/mobile/person-mobile.png"
-          alt="Person"
-        />
-        <h1>¡Hola a todos!<br /><strong>Soy Elisa</strong></h1>
-        <p>
-          Una Frontend Developer que le encanta implementar diseños que inspiran
-          y atraen a las personas.
-        </p>
-        <ul class="social-media">
-          <li class="green"><span class="phone svg"></span></li>
-          <li class="green"><span class="mail svg"></span></li>
-          <li class="green"><span class="instagram svg"></span></li>
-          <li class="green"><span class="twitter svg"></span></li>
-        </ul>
+      <section id="hola-section" class="header__bottom">
+        <img class="person" alt="Person" />
+        <div class="header__intro">
+          <h1>¡Hola a todos!<br /><strong>Soy Elisa</strong></h1>
+          <p>
+            Una Frontend Developer que le encanta implementar diseños que
+            inspiran y atraen a las personas.
+          </p>
+          <ul class="social-media">
+            <li class="green"><span class="phone svg"></span></li>
+            <li class="green"><span class="mail svg"></span></li>
+            <li class="green"><span class="instagram svg"></span></li>
+            <li class="green"><span class="twitter svg"></span></li>
+          </ul>
+        </div>
       </section>
     </header>
     <main>
-      <section class="main__intro">
+      <section id="proyectos-section" class="main__intro">
         <h2>
           A lo largo de mi carrera como Frontend, he tenido el privilegio de
           trabajar en proyectos retadores e increíbles
@@ -61,12 +67,8 @@
         <span class="arrow-down svg"></span>
       </section>
       <section class="main__showcase">
-        <img
-          class="laptop"
-          src="./res/img/mobile/laptop-mobile.png"
-          alt="Laptop"
-        />
-        <div class="showcase__info">
+        <img class="laptop" alt="Laptop" />
+        <div class="showcase__info left-row">
           <h4>leonidasesteban.com</h4>
           <p>
             Accede a más de 120 proyectos que te ayudarán a mejorar tus
@@ -81,7 +83,7 @@
         </div>
       </section>
       <section class="main__card">
-        <img src="./res/img/mobile/user0-mobile.png" alt="User" />
+        <img class="user0" alt="User" />
         <span>
           "Elisa ha sido de gran ayuda para acelerar ciertos esfuerzos de
           desarrollo. Lo que nos hubiera llevado 6 meses solo les llevó 1,5
@@ -90,8 +92,8 @@
         <p>LEONIDAS ESTEBAN / COFUNDADOR Y CEO LEONIDASESTEBAN.COM</p>
       </section>
       <section class="main__showcase">
-        <img class="ipad" src="./res/img/mobile/ipad-mobile.png" alt="iPad" />
-        <div class="showcase__info">
+        <img class="ipad" alt="iPad" />
+        <div class="showcase__info right-row">
           <h4>MARVOL</h4>
           <p>
             Es el sitio oficial de Marvol Entertainment. Explore películas,
@@ -107,7 +109,7 @@
         </div>
       </section>
       <section class="main__card">
-        <img src="./res/img/mobile/user1-mobile.png" alt="User" />
+        <img class="user1" alt="User" />
         <span>
           "Elisa ha superado mis expectativas desde el diseño hasta el
           desarrollo".
@@ -115,12 +117,8 @@
         <p>JASON LOPEZ / COFUNDADOR Y CEO MARVOL</p>
       </section>
       <section class="main__showcase">
-        <img
-          class="iphonex"
-          src="./res/img/mobile/iphonex-mobile.png"
-          alt="iPhoneX"
-        />
-        <div class="showcase__info">
+        <img class="iphonex" alt="iPhoneX" />
+        <div class="showcase__info left-row">
           <h4>NETNET</h4>
           <p>
             Películas y series ilimitadas y mucho más. Disfruta donde quieras.
@@ -135,14 +133,14 @@
         </div>
       </section>
       <section class="main__card">
-        <img src="./res/img/mobile/user2-mobile.png" alt="User" />
+        <img class="user2" alt="User" />
         <span>
           "Por primera vez en la historia de nuestra empresa, aparecimos en
           todas las plataformas en las que trabajamos".
         </span>
         <p>MARCO CORTEZ / NETNET</p>
       </section>
-      <section class="main__form">
+      <section id="hablemos-section" class="main__form">
         <h4>HABLEMOS</h4>
         <p>
           Si está interesado en trabajar conmigo en su próximo proyecto, no dude
@@ -174,6 +172,7 @@
       </section>
     </main>
     <footer>
+      <span class="logo svg"></span>
       <ul class="social-media">
         <li class="green"><span class="phone svg"></span></li>
         <li class="green"><span class="mail svg"></span></li>
@@ -181,11 +180,14 @@
         <li class="green"><span class="twitter svg"></span></li>
       </ul>
       <div>
-        <p>Hecho con </p>
-        <span class="heart svg"></span>
-        <p> de Elisa</p>
+        <div>
+          <p>Hecho con </p>
+          <span class="heart svg"></span>
+          <p> de Elisa.</p>
+        </div>
+        <p>Copyright 2021 - Todos los derechos reservados.</p>
       </div>
-      <p>Copyright 2021 - Todos los derechos reservados.</p>
     </footer>
+    <script src="./index.js"></script>
   </body>
 </html>
